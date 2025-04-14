@@ -151,19 +151,11 @@ function Sidebar({ collapsible, isMobile = false }) {
           cursor: 'pointer',
         }}
       >
-        <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} />
+        {/* <img src={logoIcon} alt="Logo" style={{ marginLeft: '-5px', height: '40px' }} /> */}
+        <span style={{ marginLeft: '-5px', fontSize: '32px', fontWeight: 'bold' }}>Invoices</span>
 
-        {!showLogoApp && (
-          <img
-            src={logoText}
-            alt="Logo"
-            style={{
-              marginTop: '3px',
-              marginLeft: '10px',
-              height: '38px',
-            }}
-          />
-        )}
+
+        
       </div>
       <Menu
         items={items}
